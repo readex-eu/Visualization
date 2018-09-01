@@ -1,0 +1,15 @@
+win7Required:
+  en: Windows 7 and above is required
+  ru: Требуется Windows 7 и выше
+x64WinRequired:
+  en: 64-bit Windows is required
+  ru: Требуется Windows 64-bit
+appRunning:
+  en: "${PRODUCT_NAME} is running.\nClick OK to close it."
+  ru: "Приложение ${PRODUCT_NAME} уже запущено.\nНажмите OK для закрытия."
+installing:
+  en: Installing, please wait...
+  ru: Установка, пожалуйста подождите...
+areYouSureToUninstall:
+  en: Are you sure you want to uninstall ${PRODUCT_NAME}?
+  ru: Вы уверены, что хотите удалить ${PRODUCT_NAME}?

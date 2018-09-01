@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RTS>
+    <entry>
+        <callpath>/LOOP/EXCHANGE_QBC</callpath>
+        <execTime>0.00041513800000000001</execTime>
+        <weight>0.30009397409206573</weight>
+    </entry>
+    <entry>
+        <callpath>/LOOP/XSOLVE</callpath>
+        <execTime>0.0083361600000000004</execTime>
+        <weight>6.0260235947258858</weight>
+    </entry>
+    <entry>
+        <callpath>/LOOP/YSOLVE</callpath>
+        <execTime>0.016177199999999999</execTime>
+        <weight>11.694136016655102</weight>
+    </entry>
+    <entry>
+        <callpath>/LOOP/ZSOLVE</callpath>
+        <execTime>0.0155029</execTime>
+        <weight>11.206699629886655</weight>
+    </entry>
+</RTS>

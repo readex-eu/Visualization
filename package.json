@@ -1,0 +1,77 @@
+{
+  "name": "TM",
+  "productName": "TM",
+  "version": "0.0.1",
+  "electronVersion": "1.4.15",
+  "description": "READEX Tuning Model Viewer",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://periscope.in.tum.de/git/?p=visualizationOfTM.git"
+  },
+  "author": {
+    "name": "Anamika Chowdhury",
+    "email": "chowdhua@in.tum.de",
+    "url": ""
+  },
+  "homepage": "http://www.readex.eu/",
+  "scripts": {
+    "start": "electron .",
+    "clean": "rm -rf ./dist",
+    "clean:osx": "rm -rf ./dist/mac",
+    "clean:linux": "rm -rf ./dist/*linux*",
+    "clean:win": "rm -rf ./dist/win",
+    "build": "npm run clean && npm run build:osx && npm run build:linux",
+    "build:osx": "npm run clean:osx && build . --mac --x64",
+    "build:linux": "npm run clean:linux && build . --linux deb --x64",
+    "build:win": "npm run clean:win && build . --win --x64"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "build": {
+    "asar": true,
+    "appId": "com.electron.TM",
+    "mac": {
+      "category": "public.app-category.development"
+    },
+    "linux": {
+      "category": "public.app-category.development"
+    },
+    "squirrelWindows" : {
+      "msi": true
+    },
+    "extraResources": [
+      "assets"
+    ]
+  },
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "bower": "^1.3.12",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron": "latest",
+    "electron-builder": "next",
+    "electron-packager": "^8.0.0",
+    "electron-rebuild": "^1.4.0",
+    "electron-reload": "^1.1.0",
+    "jsdoc": "^3.4.2",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}

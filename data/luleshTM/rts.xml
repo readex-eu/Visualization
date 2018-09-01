@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RTS>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/CalcTimeConstraintsForElems/CalcCourantConstraintForElems</callpath>
+        <execTime>0.070633399999999999</execTime>
+        <weight>2.0180394845861547</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeNodal/CalcForceForNodes/CalcVolumeForceForElems/CalcFBHourglassForceForElems</callpath>
+        <execTime>0.60584199999999999</execTime>
+        <weight>17.309276877803491</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeElements/CalcLagrangeElements/CalcKinematicsForElems</callpath>
+        <execTime>0.45760200000000001</execTime>
+        <weight>13.073969315162422</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeElements/CalcQForElems/CalcMonotonicQGradientsForElems</callpath>
+        <execTime>0.25832699999999997</execTime>
+        <weight>7.3805605554127016</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeElements/CalcQForElems/CalcMonotonicQRegionForElems</callpath>
+        <execTime>0.173206</execTime>
+        <weight>4.9486014685294704</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeElements/ApplyMaterialPropertiesForElems/EvalEOSForElems</callpath>
+        <execTime>0.64244500000000004</execTime>
+        <weight>18.355046998657183</weight>
+    </entry>
+    <entry>
+        <callpath>/foo/LagrangeLeapFrog/LagrangeNodal/CalcForceForNodes/CalcVolumeForceForElems/IntegrateStressForElems</callpath>
+        <execTime>0.42644900000000002</execTime>
+        <weight>12.183909031170538</weight>
+    </entry>
+</RTS>

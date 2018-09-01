@@ -1,0 +1,247 @@
+{
+    "iids": [
+        {
+            "id": 938582832,
+            "identifiers": [
+                {
+                    "type": "string",
+                    "name": "Process",
+                    "value": "0"
+                },
+                {
+                    "type": "string",
+                    "name": "Thread",
+                    "value": "0"
+                }
+            ]
+        }
+    ],
+    "regions": [
+        {
+            "id": 948099088,
+            "file": "psc_file_name_none",
+            "line": 35,
+            "name": "XSOLVE"
+        },
+        {
+            "id": 947951216,
+            "file": "psc_file_name_none",
+            "line": 213,
+            "name": "LOOP"
+        },
+        {
+            "id": 948098176,
+            "file": "psc_file_name_none",
+            "line": 32,
+            "name": "ZSOLVE"
+        },
+        {
+            "id": 20658144,
+            "file": "psc_file_name_none",
+            "line": 86,
+            "name": "EXCHANGE_QBC"
+        },
+        {
+            "id": 948099184,
+            "file": "psc_file_name_none",
+            "line": 34,
+            "name": "YSOLVE"
+        }
+    ],
+    "rtss": [
+        {
+            "region": 947951216,
+            "scenario": 947951712,
+            "iid": 938582832,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 213,
+                        "name": "LOOP"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 948098176,
+            "scenario": 978483952,
+            "iid": 938582832,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 213,
+                        "name": "LOOP"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 32,
+                        "name": "ZSOLVE"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 20658144,
+            "scenario": 978483408,
+            "iid": 938582832,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 213,
+                        "name": "LOOP"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 86,
+                        "name": "EXCHANGE_QBC"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 948099088,
+            "scenario": 978487216,
+            "iid": 938582832,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 213,
+                        "name": "LOOP"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 35,
+                        "name": "XSOLVE"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 948099184,
+            "scenario": 978488800,
+            "iid": 938582832,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 213,
+                        "name": "LOOP"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "psc_file_name_none",
+                        "line": 34,
+                        "name": "YSOLVE"
+                    },
+                    "identifiers": []
+                }
+            ]
+        }
+    ],
+    "scenarios": [
+        {
+            "id": 947951712,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 1
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2200000
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 14
+                }
+            ]
+        },
+        {
+            "id": 978483952,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 1
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 1300000
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 18
+                }
+            ]
+        },
+        {
+            "id": 978483408,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 1
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 1200000
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "id": 978488800,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 1
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2400000
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 12
+                }
+            ]
+        },
+        {
+            "id": 978487216,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 1
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2300000
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 12
+                }
+            ]
+        }
+    ]
+}

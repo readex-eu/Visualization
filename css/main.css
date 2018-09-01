@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+}
+
+svg {
+    border: 1px solid #ccc;
+}
+text {
+    pointer-events: none;
+}
+
+.tooltip {
+    position: absolute;
+    text-align:start;
+    width: 400px;
+    height: 500px;
+    padding: 2px;
+    font: 14px bold sans-serif;
+    background: floralwhite;
+    border: 2px;
+    border-style: dashed;
+    border-color: black;
+    border-radius: 8px;
+    pointer-events: none;
+    overflow-x:scroll;
+    overflow-y:scroll;
+}
+
+
+circle.node {
+    fill: lightsteelblue;
+    stroke: #555;
+    stroke-width: 3px;
+}
+circle.leaf {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+path.hull {
+    fill: lightsteelblue;
+    fill-opacity: 0.3;
+}
+line.link {
+    stroke: #333;
+    stroke-opacity: 0.5;
+    pointer-events: none;
+}

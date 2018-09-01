@@ -1,0 +1,482 @@
+{
+    "regions": [
+        {
+            "id": 49414256,
+            "file": "lulesh.cc",
+            "line": 1717,
+            "name": "CalcMonotonicQGradientsForElems"
+        },
+        {
+            "id": 49455104,
+            "file": "lulesh.cc",
+            "line": 1876,
+            "name": "CalcMonotonicQRegionForElems"
+        },
+        {
+            "id": 49473648,
+            "file": "lulesh.cc",
+            "line": 1597,
+            "name": "CalcKinematicsForElems"
+        },
+        {
+            "id": 49408688,
+            "file": "lulesh.cc",
+            "line": 542,
+            "name": "IntegrateStressForElems"
+        },
+        {
+            "id": 49412208,
+            "file": "lulesh.cc",
+            "line": 775,
+            "name": "CalcFBHourglassForceForElems"
+        },
+        {
+            "id": 31831184,
+            "file": "lulesh.cc",
+            "line": 2353,
+            "name": "EvalEOSForElems"
+        },
+        {
+            "id": 49469552,
+            "file": "lulesh.cc",
+            "line": 2601,
+            "name": "CalcCourantConstraintForElems"
+        }
+    ],
+    "rtss": [
+        {
+            "region": 49408688,
+            "scenario": 48907248,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1310,
+                        "name": "LagrangeNodal"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1183,
+                        "name": "CalcForceForNodes"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1122,
+                        "name": "CalcVolumeForceForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 542,
+                        "name": "IntegrateStressForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 31831184,
+            "scenario": 48901440,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2557,
+                        "name": "LagrangeElements"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2455,
+                        "name": "ApplyMaterialPropertiesForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2353,
+                        "name": "EvalEOSForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 49455104,
+            "scenario": 49491904,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2557,
+                        "name": "LagrangeElements"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2064,
+                        "name": "CalcQForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1876,
+                        "name": "CalcMonotonicQRegionForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 49469552,
+            "scenario": 49443088,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2730,
+                        "name": "CalcTimeConstraintsForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2601,
+                        "name": "CalcCourantConstraintForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 49414256,
+            "scenario": 48897344,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2557,
+                        "name": "LagrangeElements"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2064,
+                        "name": "CalcQForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1717,
+                        "name": "CalcMonotonicQGradientsForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 49473648,
+            "scenario": 48906528,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2557,
+                        "name": "LagrangeElements"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1670,
+                        "name": "CalcLagrangeElements"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1597,
+                        "name": "CalcKinematicsForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        },
+        {
+            "region": 49412208,
+            "scenario": 48901440,
+            "callpath": [
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2903,
+                        "name": "foo"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 2761,
+                        "name": "LagrangeLeapFrog"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1310,
+                        "name": "LagrangeNodal"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1183,
+                        "name": "CalcForceForNodes"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 1122,
+                        "name": "CalcVolumeForceForElems"
+                    },
+                    "identifiers": []
+                },
+                {
+                    "region": {
+                        "file": "lulesh.cc",
+                        "line": 775,
+                        "name": "CalcFBHourglassForceForElems"
+                    },
+                    "identifiers": []
+                }
+            ]
+        }
+    ],
+    "scenarios": [
+        {
+            "id": 49491904,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 11
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 2200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 1200000
+                }
+            ]
+        },
+        {
+            "id": 48906528,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 8
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 1200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2200000
+                }
+            ]
+        },
+        {
+            "id": 49443088,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 12
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 1200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2200000
+                }
+            ]
+        },
+        {
+            "id": 48901440,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 9
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 2200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 1200000
+                }
+            ]
+        },
+        {
+            "id": 48907248,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 7
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 1200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 1200000
+                }
+            ]
+        },
+        {
+            "id": 48897344,
+            "configuration": [
+                {
+                    "id": "NUMTHREADS",
+                    "value": 17
+                },
+                {
+                    "id": "UNCORE_FREQ",
+                    "value": 2200000
+                },
+                {
+                    "id": "CPU_FREQ",
+                    "value": 2200000
+                }
+            ]
+        }
+    ]
+}
